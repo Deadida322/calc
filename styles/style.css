@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    font-family:GS;
+    font-size: 20px;
+    color: rgb(198, 242, 255);
+}
+@font-face{
+    font-family: GS;
+    src:url(/styles/fonts/WebFont.ttf);
+}
+#app{
+    width: 300px;
+    position: relative;
+    margin: 20px auto;
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    background: rgb(16, 59, 100);
+}
+.calc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 5px 5px 18px 0px rgba(50, 50, 50, 0.75);
+}
+.num{
+    transition: .3s all;
+    cursor: pointer;
+    flex: 30%;
+    height: 60px;
+    border: none;
+    outline: none;
+}
+.numbers{
+    background: rgb(0, 32, 61);
+}
+.numbers:hover{
+    background: rgb(1, 44, 83);
+}
+.ops{
+    flex: 30%;
+    background: rgb(0, 57, 61);
+}
+.ops:hover{
+    background: rgb(1, 86, 92);
+}
